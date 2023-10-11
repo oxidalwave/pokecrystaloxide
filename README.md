@@ -1,6 +1,12 @@
-# Pokémon Crystal [![Build Status][ci-badge]][ci]
+# Pokémon Crystal Oxide [![Build Status][ci-badge]][ci]
 
-This is a disassembly of Pokémon Crystal.
+This is a QoL improvement of Pokémon Crystal, based on the disassembly project. The goals are threefold:
+
+ - Remain compatibility with vanilla saves. This includes trading/battling functionality.
+ - All Pokemon introduced in Gold and Silver are catchable. Note that this does not mean that all 251 Pokemon are catchable. Due to trade compatibility, missing Kanto Pokemon should be traded from Red or Blue.
+ - QoL improvements including
+   - Reusable TMs
+   - No need to teach HMs (Pending item)
 
 It builds the following ROMs:
 
