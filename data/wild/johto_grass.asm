@@ -289,7 +289,7 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, RATTATA
+	db 15, SLUGMA
 	db 15, RATICATE
 	db 15, RATICATE
 	; day
@@ -297,13 +297,13 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 15, RATTATA
 	db 14, ZUBAT
-	db 15, RATTATA
+	db 15, SLUGMA
 	db 15, RATICATE
 	db 15, RATICATE
 	; nite
 	db 13, RATTATA
 	db 14, KOFFING
-	db 15, RATTATA
+	db 15, HOUNDOUR
 	db 14, ZUBAT
 	db 15, RATTATA
 	db 15, RATICATE
@@ -1509,9 +1509,9 @@ JohtoGrassWildMons:
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 16, MEOWTH
-	db 16, MEOWTH
-	db 16, MEOWTH
+	db 16, MURKROW
+	db 16, MURKROW
+	db 16, MURKROW
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_39
