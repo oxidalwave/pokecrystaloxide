@@ -1321,27 +1321,27 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
-	db 5, RATTATA
-	db 7, BELLSPROUT
-	db 6, HOPPIP
-	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 4, EKANS ; 30
+	db 6, BELLSPROUT ; 30
+	db 6, MAREEP ; 20
+	db 6, HOPPIP ; 10
+	db 7, PIDGEY ; 5
+	db 6, RATTATA ; 4
+	db 6, RATTATA ; 1
 	; day
 	db 4, EKANS
-	db 5, RATTATA
-	db 7, BELLSPROUT
+	db 6, BELLSPROUT
+	db 6, MAREEP
 	db 6, HOPPIP
-	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 6, RATTATA
+	db 8, RATTATA
+	db 8, RATTATA
 	; nite
 	db 4, WOOPER
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, ZUBAT
-	db 7, HOOTHOOT
+	db 6, MAREEP
+	db 7, ZUBAT
 	db 7, GASTLY
 	db 7, GASTLY
 	end_grass_wildmons
@@ -1545,57 +1545,57 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, EKANS
+	db 15, MANKEY
+	db 13, MAREEP
 	db 14, SPEAROW
-	db 15, RATTATA
-	db 16, RATICATE
-	db 15, ARBOK
+	db 16, FLAFFY
 	db 16, FEAROW
-	db 16, FEAROW
+	db 16, SPEAROW
+	db 16, SPEAROW
 	; day
-	db 13, EKANS
+	db 15, MANKEY
+	db 13, MAREEP
 	db 14, SPEAROW
-	db 15, RATTATA
-	db 16, RATICATE
-	db 15, ARBOK
+	db 16, FLAFFY
 	db 16, FEAROW
-	db 16, FEAROW
+	db 16, SPEAROW
+	db 16, SPEAROW
 	; nite
-	db 13, RATTATA
-	db 14, ZUBAT
-	db 15, RATICATE
+	db 15, MANKEY
+	db 13, MAREEP
+	db 15, ZUBAT
+	db 16, FLAFFY
 	db 16, GOLBAT
 	db 15, MARILL
-	db 16, GOLBAT
-	db 16, GOLBAT
+	db 15, MARILL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SENTRET
-	db 16, PIDGEOTTO
+	db 15, GIRAFARIG
+	db 15, FLAFFY
+	db 17, PIDGEOTTO
+	db 15, MAREEP
 	db 16, FARFETCH_D
-	db 15, FURRET
-	db 17, RATICATE
-	db 17, FURRET
-	db 17, FURRET
+	db 16, VENONAT
+	db 16, VENONAT
 	; day
-	db 15, SENTRET
-	db 16, PIDGEOTTO
+	db 15, GIRAFARIG
+	db 16, FLAFFY
+	db 17, PIDGEOTTO
+	db 17, FLAFFY
 	db 16, FARFETCH_D
-	db 15, FURRET
-	db 17, RATICATE
-	db 17, FURRET
-	db 17, FURRET
+	db 15, MAREEP
+	db 15, MAREEP
 	; nite
-	db 15, VENONAT
+	db 15, GIRAFARIG
+	db 15, FLAFFY
 	db 16, NOCTOWL
-	db 16, RATICATE
-	db 17, VENONAT
-	db 17, RATICATE
+	db 16, VENONAT
 	db 17, VENOMOTH
-	db 17, VENOMOTH
+	db 15, MAREEP
+	db 15, MAREEP
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_44
