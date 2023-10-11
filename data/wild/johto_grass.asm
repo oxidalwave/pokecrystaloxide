@@ -1548,7 +1548,7 @@ JohtoGrassWildMons:
 	db 15, MANKEY
 	db 13, MAREEP
 	db 14, SPEAROW
-	db 16, FLAFFY
+	db 16, FLAAFFY
 	db 16, FEAROW
 	db 16, SPEAROW
 	db 16, SPEAROW
@@ -1556,7 +1556,7 @@ JohtoGrassWildMons:
 	db 15, MANKEY
 	db 13, MAREEP
 	db 14, SPEAROW
-	db 16, FLAFFY
+	db 16, FLAAFFY
 	db 16, FEAROW
 	db 16, SPEAROW
 	db 16, SPEAROW
@@ -1564,7 +1564,7 @@ JohtoGrassWildMons:
 	db 15, MANKEY
 	db 13, MAREEP
 	db 15, ZUBAT
-	db 16, FLAFFY
+	db 16, FLAAFFY
 	db 16, GOLBAT
 	db 15, MARILL
 	db 15, MARILL
@@ -1574,7 +1574,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, GIRAFARIG
-	db 15, FLAFFY
+	db 15, FLAAFFY
 	db 17, PIDGEOTTO
 	db 15, MAREEP
 	db 16, FARFETCH_D
@@ -1582,15 +1582,15 @@ JohtoGrassWildMons:
 	db 16, VENONAT
 	; day
 	db 15, GIRAFARIG
-	db 16, FLAFFY
+	db 16, FLAAFFY
 	db 17, PIDGEOTTO
-	db 17, FLAFFY
+	db 17, FLAAFFY
 	db 16, FARFETCH_D
 	db 15, MAREEP
 	db 15, MAREEP
 	; nite
 	db 15, GIRAFARIG
-	db 15, FLAFFY
+	db 15, FLAAFFY
 	db 16, NOCTOWL
 	db 16, VENONAT
 	db 17, VENOMOTH
