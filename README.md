@@ -91,6 +91,9 @@ Thanks to the below sources, used often as reference.
 Unless otherwise noted, all below sections of [bugs_and_glitches](/docs/bugs_and_glitches.md) have been applied:
 - Single-player battle engine
 - Game engine
+- Graphics (Does not include trainer sprites)
+- Audio
+- Text
 
 # Building
 
