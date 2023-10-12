@@ -87,6 +87,11 @@ Thanks to the below sources, used often as reference.
 
  - [Superegz's Pokemon Perfect Crystal](https://github.com/Superegz/Pokemon-Perfect-Crystal/tree/9ceb36e6cb1984b8ee1ac7378b5d366ff0705317)
 
+## Applied bugfixes
+Unless otherwise noted, all below sections of [bugs_and_glitches](/docs/bugs_and_glitches.md) have been applied:
+- Single-player battle engine
+- Game engine
+
 # Building
 
 This repository builds the following ROMs:
