@@ -391,7 +391,7 @@ JohtoGrassWildMons:
 	db 24, NATU
 	db 22, WOOPER
 	db 22, QUAGSIRE
-	db 22, QUAGSIRE
+	db 22, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
@@ -487,7 +487,7 @@ JohtoGrassWildMons:
 	db 21, RATICATE
 	db 20, GEODUDE
 	db 23, ONIX
-	db 23, ONIX
+	db 23, LARVITAR
 	; day
 	db 22, ZUBAT
 	db 22, GOLBAT
@@ -495,7 +495,7 @@ JohtoGrassWildMons:
 	db 21, RATICATE
 	db 20, GEODUDE
 	db 23, ONIX
-	db 23, ONIX
+	db 23, LARVITAR
 	; nite
 	db 22, ZUBAT
 	db 22, GOLBAT
@@ -503,7 +503,7 @@ JohtoGrassWildMons:
 	db 21, RATICATE
 	db 20, GEODUDE
 	db 23, ONIX
-	db 23, ONIX
+	db 23, LARVITAR
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B1F
