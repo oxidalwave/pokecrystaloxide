@@ -3,12 +3,93 @@
 This is a QoL improvement of Pokémon Crystal, based on the disassembly project. The goals are threefold:
 
  - Remain compatibility with vanilla saves. This includes trading/battling functionality.
- - All Pokemon introduced in Gold and Silver are catchable. Note that this does not mean that all 251 Pokemon are catchable. Due to trade compatibility, missing Kanto Pokemon should be traded from Red or Blue.
+ - All Pokemon introduced in Gold and Silver are catchable in Johto. Note that this does not mean that all 251 Pokemon are catchable; thanks to trade compatibility, missing Kanto Pokemon can be traded from Red or Blue.
  - QoL improvements including
+   - Running Shoes
    - Reusable TMs
    - No need to teach HMs (Pending item)
 
-It builds the following ROMs:
+# Pokemon Locations
+
+## Houndour
+Houndour has been added to the first floor of the Burned Tower. They have a 20% encounter rate at nighttime.
+
+## Slugma
+Slugma has been added to the first floor of the Burned Tower. They have a 5% encounter rate during the morning and daytime.
+
+## Misdreavus
+Misdreavus has been added to the Ruins of Alph. They have a 1% encounter rate at nighttime.
+
+## Girafarig
+Girafarig has been restored to their original encounter route from Gold and Silver.
+
+## Mankey
+Mankey has been restored to their original encounter route from Gold.  See Revised Routes.
+
+## Mareep/Flaafy
+Mareep and Flaafy have been restored to their original encounter routes from Gold and Silver. See Revised Routes.
+
+## Revised Routes
+
+### Route 33
+
+| Pokemon    | Morning | Daytime | Nighttime |
+| Ekans      | 30%     | 30%     |           |
+| Bellsprout | 30%     | 30%     | 20%       |
+| Mareep     | 20%     | 20%     | 10%       |
+| Hoppip     | 10%     | 10%     |           |
+| Pidgey     | 5%      |         |           |
+| Wooper     |         |         | 30%       |
+| Rattata    | 5%      | 10%     | 30%       |
+| Zubat      |         |         | 5%        |
+| Gastly     |         |         | 5%        |
+
+### Route 42
+
+| Pokemon    | Morning | Daytime | Nighttime |
+| Mankey     | 30%     | 30%     | 30%       |
+| Mareep     | 30%     | 30%     | 30%       |
+| Flaaffy    | 10%     | 10%     | 10%       |
+| Spearow    | 25%     | 25%     |           |
+| Fearow     | 5%      | 5%      |           |
+| Zubat      |         |         | 20%       |
+| Golbat     |         |         | 5%        |
+| Marill     |         |         | 5%        |
+
+### Route 43
+
+| Pokemon    | Morning | Daytime | Nighttime |
+| Girafarig  | 30%     | 30%     | 30%       |
+| Mareep     | 10%     | 5%      | 5%        |
+| Flaaffy    | 30%     | 30%     | 30%       |
+| Pidgeotto  | 20%     | 20%     |           |
+| Noctowl    |         |         | 20%       |
+| Farfetch'd | 5%      | 5%      |           |
+| Venonat    | 5%      |         | 10%       |
+| Venomoth   |         |         | 5%        |
+
+## Special Cases
+
+### Heracross
+Haracross has been added to the Bug Catching Contest. Though Heracross is technically catchable in Johto, the method of obtaining it is incredibly roundabout. I may revert this in the future.
+
+New rates are:
+- Scyther: 4%
+- Pinsir: 3%
+- Heracross: 3%
+
+### Qwilfish
+Qwilfish has been left untouched. Catching Qwilfish requires the Super Rod, which is not available until Kanto--however, the goal is to make all new Pokemon catchable in Johto; it is not to make all Pokemon catchable before Kanto.
+
+# Credits
+
+Thanks to the below sources, used often as reference.
+
+ - [Superegz's Pokemon Perfect Crystal](https://github.com/Superegz/Pokemon-Perfect-Crystal/tree/9ceb36e6cb1984b8ee1ac7378b5d366ff0705317)
+
+# Building
+
+This repository builds the following ROMs:
 
 - Pokemon - Crystal Version (UE) (V1.0) [C][!].gbc `sha1: f4cd194bdee0d04ca4eac29e09b8e4e9d818c133`
 - Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc `sha1: f2f52230b536214ef7c9924f483392993e226cfb`
