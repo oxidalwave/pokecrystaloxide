@@ -490,7 +490,8 @@ PhoneCall::
 	ld a, [wPhoneCaller + 1]
 	ld d, a
   ld a, [wPhoneScriptBank]
-	call PlaceFarString	ret
+	call PlaceFarString
+	ret
 
 Phone_NoSignal:
 	ld de, SFX_NO_SIGNAL
