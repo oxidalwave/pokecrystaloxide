@@ -8,6 +8,13 @@ This is a QoL improvement of Pokémon Crystal, based on the disassembly project.
    - Reusable TMs
    - No need to teach HMs (Pending item)
 
+## Applied bugfixes
+Unless otherwise noted, all below sections of [bugs_and_glitches](/docs/bugs_and_glitches.md) have been applied:
+- Single-player battle engine
+- Game engine
+
+## Builds
+
 It builds the following ROMs:
 
 - Pokemon - Crystal Version (UE) (V1.0) [C][!].gbc `sha1: f4cd194bdee0d04ca4eac29e09b8e4e9d818c133`
