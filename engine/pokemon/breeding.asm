@@ -636,7 +636,8 @@ GetHatchlingFrontpic:
 	ld [wCurSpecies], a
 	call GetBaseData
   ld a, MON_DVS
-	call GetPartyParamLocation	predef GetUnownLetter
+	call GetPartyParamLocation
+	predef GetUnownLetter
 	pop de
 	predef_jump GetAnimatedFrontpic
 
