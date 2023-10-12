@@ -94,6 +94,8 @@ Unless otherwise noted, all below sections of [bugs_and_glitches](/docs/bugs_and
 - Graphics (Does not include trainer sprites)
 - Audio
 - Text
+- Scripted events
+- Internal engine routines
 
 # Building
 
